@@ -1,0 +1,14 @@
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\bin\Debug\net8.0\RemoteShellServer.exe
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\bin\Debug\net8.0\RemoteShellServer.deps.json
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\bin\Debug\net8.0\RemoteShellServer.runtimeconfig.json
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\bin\Debug\net8.0\RemoteShellServer.dll
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\bin\Debug\net8.0\RemoteShellServer.pdb
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\obj\Debug\net8.0\RemoteShellServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\obj\Debug\net8.0\RemoteShellServer.AssemblyInfoInputs.cache
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\obj\Debug\net8.0\RemoteShellServer.AssemblyInfo.cs
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\obj\Debug\net8.0\RemoteShellServer.csproj.CoreCompileInputs.cache
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\obj\Debug\net8.0\RemoteShellServer.dll
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\obj\Debug\net8.0\refint\RemoteShellServer.dll
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\obj\Debug\net8.0\RemoteShellServer.pdb
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\obj\Debug\net8.0\RemoteShellServer.genruntimeconfig.cache
+C:\Users\homie\Documents\RatScriptUnity\RemoteShellServer\obj\Debug\net8.0\ref\RemoteShellServer.dll
