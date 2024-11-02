@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\homie\\Documents\\RatScriptUnity\\RemoteShellServer\\RemoteShellServer.csproj",
+      "projectUniqueName": "C:\\Users\\homie\\Documents\\CyberSecNetworking\\RatScriptUnity\\RemoteShellServer\\RemoteShellServer.csproj",
       "projectName": "RemoteShellServer",
-      "projectPath": "C:\\Users\\homie\\Documents\\RatScriptUnity\\RemoteShellServer\\RemoteShellServer.csproj",
+      "projectPath": "C:\\Users\\homie\\Documents\\CyberSecNetworking\\RatScriptUnity\\RemoteShellServer\\RemoteShellServer.csproj",
       "packagesPath": "C:\\Users\\homie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\homie\\Documents\\RatScriptUnity\\RemoteShellServer\\obj\\",
+      "outputPath": "C:\\Users\\homie\\Documents\\CyberSecNetworking\\RatScriptUnity\\RemoteShellServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
