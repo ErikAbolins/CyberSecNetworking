@@ -4,16 +4,24 @@ using System.Threading.Tasks;
 
 class Program
 {
-    static async Task Main(stirng[] args)
+    static async Task Main(string[] args)
     {
-        Console.Write("enter the ip addr to scan: ");
+        Console.Write("Enter the IP address to scan: ");
         string ipAddress = Console.ReadLine();
 
-        Console.Write("enter the starting port: ");
-        int startPort = int.Parse(Console.ReadLine());
+        Console.Write("Enter the starting port: ");
+        int startPort;
+        while (!int.TryParse(Console.ReadLine(), out startPort) || startPort < 1 || startPort > 65535)
+        {
+            Console.Write("Invalid input. Please enter a valid starting port (1-65535): ");
+        }
 
-        Console.Write("Ender the end port: ");
-        int endPort = int.Parse(Console.ReadLine());
+        Console.Write("Enter the ending port: ");
+        int endPort;
+        while (!int.TryParse(Console.ReadLine(), out endPort) || endPort < startPort || endPort > 65535)
+        {
+            Console.Write("Invalid input. Please enter a valid ending port (greater than or equal to starting port and <= 65535): ");
+        }
 
         Console.WriteLine($"Scanning {ipAddress} from port {startPort} to {endPort}...");
 
@@ -29,13 +37,21 @@ class Program
         {
             try
             {
-                var result = await client.ConnectAsync(ipAddress, port);
-                Console.WriteLine($"port {port} is open.");
+                // Attempt to connect to the port asynchronously
+                await client.ConnectAsync(ipAddress, port);
+                Console.WriteLine($"Port {port} is open.");
             }
             catch (SocketException)
             {
-                Console.WriteLine($"no open ports");
+                // Handle the case for closed ports
+                Console.WriteLine($"Port {port} is closed.");
+            }
+            catch (Exception ex)
+            {
+                // General exception handling for other errors
+                Console.WriteLine($"An error occurred on port {port}: {ex.Message}");
             }
         }
     }
 }
+
