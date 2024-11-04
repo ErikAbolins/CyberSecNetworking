@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
@@ -8,13 +8,23 @@ class Server
 {
     static void Main()
     {
+
         TcpListener listener = new TcpListener(IPAddress.Any, 5555);
         listener.Start();
         Console.WriteLine("Server started at port 5555");
+        Console.WriteLine(@"
+     _____                      _          _____ _          _ _
+    |  __ \                    | |        / ____| |        | | |
+    | |__) |___ _ __ ___   ___ | |_ ___  | (___ | |__   ___| | |
+    |  _  // _ \ '_ ` _ \ / _ \| __/ _ \  \___ \| '_ \ / _ \ | |
+    | | \ \  __/ | | | | | (_) | ||  __/  ____) | | | |  __/ | |
+    |_|  \_\___|_| |_| |_|\___/ \__\___| |_____/|_| |_|\___|_|_|
+    ");
 
         TcpClient client = listener.AcceptTcpClient();
         NetworkStream stream = client.GetStream();
         Console.WriteLine("Client Connected.");
+
 
         StreamWriter writer = new StreamWriter(stream);
         StreamReader reader = new StreamReader(stream);
@@ -45,9 +55,9 @@ class Server
                 break;
             }
 
-            
 
-            
+
+
         }
 
         //Cleanup

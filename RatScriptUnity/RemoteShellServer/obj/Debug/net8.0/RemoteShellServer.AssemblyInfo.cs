@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RemoteShellServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f6a915f5deffd47f723cb9c4caba40354618141")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8196707075ada76aef37088309c8e06bef0e952a")]
 [assembly: System.Reflection.AssemblyProductAttribute("RemoteShellServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RemoteShellServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
